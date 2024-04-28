@@ -1,0 +1,27 @@
+###################### Base Settings######################
+test_during_training: True
+
+### database ###
+
+QADS:
+  datainfo: ./IQA-DB/QADSfullinfo.mat
+  im_dir: ./QADS
+MA:
+  datainfo: ./IQA-DB/sr_metric_data.mat
+  im_dir: ./MA
+
+
+patch_size: 32
+n_patches: 32
+stride: 32
+exp_id: 0
+
+train_ratio: 0.6
+val_ratio: 0.2
+test_ratio: 0.2
+
+
+
+
+
+
